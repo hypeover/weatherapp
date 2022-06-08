@@ -146,7 +146,7 @@ const Forecast = ({data, current}) => {
   } 
   
   if(display === true) {
-    {
+    
       return (
         <>
       <UpSection>
@@ -180,7 +180,7 @@ const Forecast = ({data, current}) => {
       </BotSection>
     </>
       )
-    }
+    
   }
 }
 

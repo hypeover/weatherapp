@@ -15,7 +15,7 @@ const App = () => {
       navigate('/Welcome')
     } 
     
-  }, [])  
+  }, [navigate])  
 
 
   return (
