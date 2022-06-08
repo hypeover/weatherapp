@@ -15,7 +15,7 @@ const Main = () => {
 
     const localCity = localStorage.getItem("city")
 
-    fetch(`http://api.weatherapi.com/v1/forecast.json?key=f2ea1d7579c3407c801173338221905&q=${localCity}&days=4&aqi=yes&alerts=yes`)
+    fetch(`https://api.weatherapi.com/v1/forecast.json?key=f2ea1d7579c3407c801173338221905&q=${localCity}&days=4&aqi=yes&alerts=yes`)
     .then(res => res.json())
     .then(data => {
       setCurrentData(data)
